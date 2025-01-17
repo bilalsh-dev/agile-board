@@ -35,6 +35,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      transitionProperty: {
+        width: "width", // For smooth sidebar resizing
+        background: "background-color", // For smooth background color transitions
+      },
     },
   },
   plugins: [],
